@@ -1,0 +1,28 @@
+body {
+    background-color: #DCDCDC;
+    color: #0a0a52;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 3em;
+    padding: 4em 0;
+}
+
+button {
+    background: #DCDCDC;
+    color: #0a0a52;
+    
+    font-size: 14px;
+    width: 10em;
+    height: 2.5em;
+    border-radius: 20px;
+    border: 1px solid #0a0a52;
+    box-shadow: 1.5px 1.5px 1.5px #04041f;
+}
+
+button:hover {
+    background: #0a0a52;
+    color: #DCDCDC;
+    height: 2.8em;
+    width: 11em;
+}
