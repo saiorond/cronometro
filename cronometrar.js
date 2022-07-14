@@ -3,8 +3,16 @@ var minutos = 0;
 var horas = 0;
 var inicio = 0;
 
+function doisDigitos(digit) {
+    if(digit < 10 ) {
+      return('0'+digit)
+    } else {
+      return(digit)
+    }
+}
+
 function iniciar() {
-     inicio = setInterval(contador, 1000)
+     inicio = setInterval(contador, 1)
 }
 
 function pausar () {
@@ -12,7 +20,10 @@ function pausar () {
 }
 
 function reiniciar() {
-    
+    segundos = 0
+    minutos = 0
+    horas = 0
+    document.getElementById('contador').innerText = '00:00:00'
 }
 
 function contador(){
@@ -22,7 +33,8 @@ function contador(){
        segundos = 0
     }
     if(minutos == 59) {
+      minutos = 0
       horas ++
     }
-    document.getElementById('contador').innerText = horas + ':' + minutos + ':' + segundos
+    document.getElementById('contador').innerText = doisDigitos(horas) + ':' + doisDigitos(minutos) + ':' + doisDigitos(segundos);
 }

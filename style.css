@@ -8,11 +8,14 @@ body {
     padding: 4em 0;
 }
 
+h1 {
+    font-size: 1.5em;
+}
+
 button {
     background: #DCDCDC;
     color: #0a0a52;
-    
-    font-size: 14px;
+    font-size: 18px;
     width: 10em;
     height: 2.5em;
     border-radius: 20px;
@@ -21,8 +24,7 @@ button {
 }
 
 button:hover {
-    background: #0a0a52;
-    color: #DCDCDC;
+    background: #737373;
     height: 2.8em;
     width: 11em;
     cursor: pointer;
