@@ -24,8 +24,30 @@ button {
 }
 
 button:hover {
-    background: #737373;
-    height: 2.8em;
-    width: 11em;
+    background: #b3b1b1;
+    height: 2.3em;
+    width: 9em;
     cursor: pointer;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+#iniciar:hover {
+    color: green;
+}
+
+#pausar:hover {
+    color: rgb(73, 72, 72);
+}
+
+#reiniciar:hover {
+    color: red;
+}
+
+.tema {
+    display: flex;
+}
+
+.tema button {
+    flex-direction: flex-end;
 }
