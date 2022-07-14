@@ -25,4 +25,5 @@ button:hover {
     color: #DCDCDC;
     height: 2.8em;
     width: 11em;
+    cursor: pointer;
 }
