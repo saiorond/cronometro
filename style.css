@@ -1,11 +1,21 @@
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 1em 1em 2em 0;
+   
+}
+
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #DCDCDC;
     color: #0a0a52;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: lighter;
     text-align: center;
     font-size: 3em;
-    padding: 4em 0;
 }
 
 h1 {
@@ -42,12 +52,4 @@ button:hover {
 
 #reiniciar:hover {
     color: red;
-}
-
-.tema {
-    display: flex;
-}
-
-.tema button {
-    flex-direction: flex-end;
 }

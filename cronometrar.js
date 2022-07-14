@@ -1,7 +1,7 @@
 var segundos = 0;
 var minutos = 0;
 var horas = 0;
-var inicio = 0;
+var comecar = 0;
 
 function doisDigitos(digit) {
     if(digit < 10 ) {
@@ -12,11 +12,12 @@ function doisDigitos(digit) {
 }
 
 function iniciar() {
-     inicio = setInterval(contador, 1)
+    contador(); 
+    comecar = setInterval(contador, 1000);
 }
 
 function pausar () {
-    clearInterval(inicio)
+    clearInterval(comecar)
 }
 
 function reiniciar() {

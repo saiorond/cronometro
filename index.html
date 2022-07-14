@@ -7,16 +7,19 @@
         <title>Cronômetro</title>
     </head>
 
+            <div class="container">
+            <button onclick="mudaTema()">Alterar tema</button>
+            </div>
+
     <body>
+
         <div>
             <h1 id="contador">00:00:00</h1>
             <button id="iniciar" onclick="iniciar()">Iniciar</button>
             <button id="pausar" onclick="pausar()">Pausar</button>
             <button id="reiniciar" onclick="reiniciar()">Reiniciar</button>
         </div>
-        <div class="tema">
-            <button onclick="mudaTema()">Alterar tema</button>
-        </div>
+
         <script src="cronometrar.js"></script>
     </body>
 </html>
