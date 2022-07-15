@@ -40,6 +40,7 @@ button:hover {
     cursor: pointer;
     font-size: 21px;
     font-weight: bold;
+    transition: 0.5s;
 }
 
 #iniciar:hover {
@@ -57,4 +58,15 @@ button:hover {
 .dark {
     background: #04041f;
     color: #DCDCDC;
+}
+
+.dark button {
+    background-color: #04041f;
+    color: #DCDCDC;
+    border: 1px solid #DCDCDC;
+}
+
+.dark button:hover {
+    background-color: #0a0a52;
+    transition: 0.5s;
 }
