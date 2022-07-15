@@ -39,3 +39,7 @@ function contador(){
     }
     document.getElementById('contador').innerText = doisDigitos(horas) + ':' + doisDigitos(minutos) + ':' + doisDigitos(segundos);
 }
+
+function mudaTema() {
+  document.body.classList.toggle('dark');
+}

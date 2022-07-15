@@ -53,3 +53,8 @@ button:hover {
 #reiniciar:hover {
     color: red;
 }
+
+.dark {
+    background: #04041f;
+    color: #DCDCDC;
+}
